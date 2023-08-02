@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.node:hover .node-controls {
+  display: block;
+}
+
+.node-controls {
+  display: none;
+}
+
+.node-name {
+  margin-right: 5px;
+}
+
+.control-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.fileContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.header{
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+}
